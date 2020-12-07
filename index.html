@@ -1,153 +1,235 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <title>Myphone.news</title>
-    <link rel ="icon" href="Icons/cf30723d55597b17bd37318b30d057e0.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="Icons/cf30723d55597b17bd37318b30d057e0.png" type="image/png" sizes="16x16">
     <meta charset="UTF-8">
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Juan Luis Postigo Moreno">
     <meta name="description" content="Noticias de todo lo relacionado con los conponentes de un ordenador y de móviles">
     <meta name="keywords" content="componentes ordenador, componentes moviles">
+    <link rel="stylesheet" href="CSS/estilogeneral.css">
 </head>
+
 <body>
-    <h1 style="text-align: center;">Noticias sobre móviles</h1>
-    <figure style="text-align: center;">
 
-        <picture>
+    <header class="fondorojo">
+        <h1>Noticias sobre móviles</h1>
+        <figure>
 
-            <source media="(max-width: 799px)" srcset="Images/img_abarredo_20180903-131048_imagenes_lv_propias_abarredo_notch_4_5_1593297122-kGWE-U46258488221hxH-992x558@LaVanguardia-Web-400.png">
+            <picture>
 
-            <source media="(min-width: 800px)" srcset="Images/img_abarredo_20180903-131048_imagenes_lv_propias_abarredo_notch_4_5_1593297122-kGWE-U46258488221hxH-992x558@LaVanguardia-Web.png">
+                <source media="(max-width: 799px)"
+                    srcset="Images/img_abarredo_20180903-131048_imagenes_lv_propias_abarredo_notch_4_5_1593297122-kGWE-U46258488221hxH-992x558@LaVanguardia-Web-400.png">
 
-            <img src="Images/img_abarredo_20180903-131048_imagenes_lv_propias_abarredo_notch_4_5_1593297122-kGWE-U46258488221hxH-992x558@LaVanguardia-Web-400.png" alt="Moviles">
+                <source media="(min-width: 800px)"
+                    srcset="Images/img_abarredo_20180903-131048_imagenes_lv_propias_abarredo_notch_4_5_1593297122-kGWE-U46258488221hxH-992x558@LaVanguardia-Web.png">
 
-        </picture>
+                <img src="Images/img_abarredo_20180903-131048_imagenes_lv_propias_abarredo_notch_4_5_1593297122-kGWE-U46258488221hxH-992x558@LaVanguardia-Web-400.png"
+                    alt="Moviles">
 
-</figure>
-<h2 style="text-align: center;"><u><a href="Articles/Samsung.html">Samsung usará la arquitectura RDNA de AMD en las GPU de sus móviles</a></u></h2>
-        <figure style="text-align: center;">
+            </picture>
 
-            <a href="Articles/Samsung.html"><picture>
-    
-                <source media="(max-width: 799px)" srcset="Images/Samsung-Galaxy-S10-01-400.png">
-    
-                <source media="(min-width: 800px)" srcset="Images/Samsung-Galaxy-S10-01-930x487.webp">
-    
-                <img src="Images/Samsung-Galaxy-S10-01-930x487.webp" alt="Sangsung Galaxy S10">
-    
-            </picture></a>
-    
-            <figcaption>Fotografía de un Sangsung Galaxy S10</figcaption>
-    
-    </figure>
-        <h3 style="text-align: center;"><mark>AMD y Samsung Electronics</mark> acaban de anunciar un acuerdo comercial por el que el primero licenciará...<a href="Articles/Samsung.html">Leer más</a></h3>
- <h2 style="text-align: center;"><u><a href="Articles/MotoG5G.html">Moto G 5G: súper batería y 5G por debajo de los 300 euros</a></u></h2>
- <figure style="text-align: center;">
+        </figure>
+    </header>
 
-    <a href="Articles/MotoG5G.html"><picture style="text-align: center;">
+    <nav class="fondorojo">
+        <a class="button" href="#Samsung">Noticias Samsungs</a>
+        <a class="button" href="#Motorolas">Noticias Motorolas</a>
+        <a class="button" href="#Nokias">Noticias Nokias</a>
+        <a class="button" href="#temademovistar">Tema de Movistar</a>
+    </nav>
+    <main>
+        <section id="Samsung" class="secciones">
+            <h2 class="centro">Noticias de Samsungs</h2>
+            <article class="articulos">
+                <h2 class="centro"><u><a href="Articles/Samsung.html">Samsung usará la arquitectura RDNA de AMD en las
+                            GPU
+                            de sus móviles</a></u></h2>
+                <figure class="centro">
 
-        <source media="(max-width: 799px)" srcset="Images/1366_2000.400.jpg">
+                    <a href="Articles/Samsung.html">
+                        <picture>
 
-        <source media="(min-width: 800px)" srcset="Images/1366_2000.800.jpg">
+                            <source media="(max-width: 799px)" srcset="Images/Samsung-Galaxy-S10-01-400.png">
 
-        <img src="Images/1366_2000.800.jpg" alt="Moto G 5G">
+                            <source media="(min-width: 800px)" srcset="Images/Samsung-Galaxy-S10-01-930x487.webp">
 
-    </picture></a>
+                            <img src="Images/Samsung-Galaxy-S10-01-930x487.webp" alt="Samgsung Galaxy S10">
 
-    <figcaption>Fotografía de un Moto G 5G</figcaption>
-</figure>
+                        </picture>
+                    </a>
 
-    <h3 style="text-align: center;">Día de estrenos para Motorola y de que vaya completando sus familias de...<a href="Articles/MotoG5G.html">Leer más</a></h3>
+                    <figcaption>Fotografía de un Samgsung Galaxy S10</figcaption>
 
-    <h2 style="text-align: center;"><u><a href="Articles/Nokia.html">Los Nokia 3.4 y Nokia 2.4 llegan a España: precio y disponibilidad oficiales de los nuevos móviles con Android One</a></u></h2>
-    <figure style="text-align: center;">
+                </figure>
+                <h3 class="centro"><mark>AMD y Samsung Electronics</mark> acaban de anunciar un acuerdo comercial por el
+                    que
+                    el primero licenciará...<a href="Articles/Samsung.html">Leer más</a></h3>
+            </article>
+            <article class="articulos">
+                <h2 class="centro"><u><a href="Articles/SamsungG.html">Samsung Galaxy A12 y A02s: los primeros móviles
+                            de
+                            Samsung para 2021 son dos gama de entrada que dan un salto en batería</a></u></h2>
+                <figure class="centro">
 
-        <a href="Articles/Nokia.html"><picture>
+                    <a href="Articles/SamsungG.html">
+                        <picture>
 
-            <source media="(max-width: 799px)" srcset="Images/1366_2000-400.jpg">
+                            <source media="(max-width: 799px)" srcset="Images/1366_2000_400.jpg">
 
-            <source media="(min-width: 800px)" srcset="Images/1366_2000-800.jpg">
+                            <source media="(min-width: 800px)" srcset="Images/1366_2000_800.jpg">
 
-            <img src="Images/1366_2000-800.jpg" alt="Nokia 3.4 y Nokia 2.4">
+                            <img src="Images/1366_2000_800.jpg" alt="Samsung Galaxy A12 y A02s">
 
-        </picture></a>
-        <figcaption>Fotografía de un Nokia 3.4 y Nokia 2.4 </figcaption>
-    </figure>
-    <h3 style="text-align: center;">Cuando un usuario busca un móvil económico, en ocasiones...<a href="Articles/Nokia.html">Leer más</a></h3>
+                        </picture>
+                    </a>
+                    <figcaption>Fotografía de un Samsung Galaxy A12 y A02s </figcaption>
+                </figure>
+                <h3 class="centro">Samsung empieza a mostrar sus cartas para el 2021...<a
+                        href="Articles/SamsungG.html">Leer
+                        más</a></h3>
+            </article>
+        </section>
+        <section id="Motorolas" class="secciones">
+            <h2 class="centro">Noticias de Motorolas</h2>
+            <article class="articulos">
+                <h2 class="centro"><u><a href="Articles/Motorola9G.html">Moto G9 Power: una gran batería de 6.000 mAh
+                            para
+                            ganar en autonomía a sus rivales y a los de casa</a></u></h2>
+                <figure class="centro">
 
-    <h2 style="text-align: center;"><u><a href="Articles/SamsungG.html">Samsung Galaxy A12 y A02s: los primeros móviles de Samsung para 2021 son dos gama de entrada que dan un salto en batería</a></u></h2>
-    <figure style="text-align: center;">
+                    <a href="Articles/Motorola9G.html">
+                        <picture>
 
-        <a href="Articles/SamsungG.html"><picture>
+                            <source media="(max-width: 799px)" srcset="Images/Motorola-400.jpg">
 
-            <source media="(max-width: 799px)" srcset="Images/1366_2000_400.jpg">
+                            <source media="(min-width: 800px)" srcset="Images/Motorola-800.jpg">
 
-            <source media="(min-width: 800px)" srcset="Images/1366_2000_800.jpg">
+                            <img src="Images/Motorola-800.jpg" alt="Motorola 9G">
 
-            <img src="Images/1366_2000_800.jpg" alt="Samsung Galaxy A12 y A02s">
+                        </picture>
+                    </a>
 
-        </picture></a>
-        <figcaption>Fotografía de un Samsung Galaxy A12 y A02s </figcaption>
-    </figure>
-    <h3 style="text-align: center;">Cuando un usuario busca un móvil económico, en ocasiones...<a href="Articles/Nokia.html">Leer más</a></h3>
-    
-    <h2 style="text-align: center;"><u><a href="Articles/Motorola9G.html">Moto G9 Power: una gran batería de 6.000 mAh para ganar en autonomía a sus rivales y a los de casa</a></u></h2>
-        <figure style="text-align: center;">
+                    <figcaption>Fotografía de un Motorola 9G</figcaption>
 
-            <a href="Articles/Motorola9G.html"><picture>
-    
-                <source media="(max-width: 799px)" srcset="Images/Motorola-400.jpg">
-    
-                <source media="(min-width: 800px)" srcset="Images/Motorola-800.jpg">
-    
-                <img src="Images/Motorola-800.jpg" alt="Motorola 9G">
-    
-            </picture></a>
-    
-            <figcaption>Fotografía de un Motorola 9G</figcaption>
-    
-    </figure>
-        <h3 style="text-align: center;">Lo que nos llamó la atención del Moto G9 Plus era su...<a href="Articles/Motorola9G.html">Leer más</a></h3>
+                </figure>
+                <h3 class="centro">Lo que nos llamó la atención del Moto G9 Plus era su...<a
+                        href="Articles/Motorola9G.html">Leer más</a></h3>
+            </article>
+            <article class="articulos">
+                <h2 class="centro"><u><a href="Articles/MotoG5G.html">Moto G 5G: súper batería y 5G por debajo de los
+                            300
+                            euros</a></u></h2>
+                <figure class="centro">
 
-        <h2 style="text-align: center;"><u><a href="Articles/Nokia6300.html">Nokia 6300 4G y Nokia 8000 4G: HMD Global revive otros dos clásicos de Nokia con KaiOS bajó el capó</a></u></h2>
-        <figure style="text-align: center;">
+                    <a href="Articles/MotoG5G.html">
+                        <picture>
 
-            <a href="Articles/Nokia6300.html"><picture>
-    
-                <source media="(max-width: 799px)" srcset="Images/Nokia-400.jpg">
-    
-                <source media="(min-width: 800px)" srcset="Images/Nokia-800.jpg">
-    
-                <img src="Images/Nokia-800.jpg" alt="Nokia 6300 4G y Nokia 8000 4G">
-    
-            </picture></a>
-    
-            <figcaption>Fotografía de un Nokia 6300 4G y Nokia 8000 4G</figcaption>
-    
-    </figure>
-        <h3 style="text-align: center;">HMD Global, la empresa detrás de la marca Nokia, lleva tiempo...<a href="Articles/Nokia6300.html">Leer más</a></h3>
+                            <source media="(max-width: 799px)" srcset="Images/1366_2000.400.jpg">
 
-    <h2 style="text-align: center;"><mark>Tema de Movistar</mark></h2>
+                            <source media="(min-width: 800px)" srcset="Images/1366_2000.800.jpg">
 
-<div style="text-align: center;">
+                            <img src="Images/1366_2000.800.jpg" alt="Moto G 5G">
 
-    <img src="Images/dancing_hv2i6sa2.gif" alt="gif esqueleto bailando"><audio src="Sounds/Tono-de-llamada-movistar-oficial.m4a" autoplay muted controls loop></audio>
-</div>
+                        </picture>
+                    </a>
 
-</div>
-<div id="Nokias" style="background-color: crimson;">
-    <p><a href="/Articles/Nokia.html">Los Nokia 3.4 y Nokia 2.4 llegan a España: precio y disponibilidad oficiales de los nuevos móviles con Android One</a></p>
-    <p><a href="/Articles/Nokia6300.html">Nokia 6300 4G y Nokia 8000 4G: HMD Global revive otros dos clásicos de Nokia con KaiOS bajó el capó</a></p>
-</div>
-<div id="Samsungs" style="background-color: cyan;">
-    <p><a href="/Articles/Samsung.html">Samsung usará la arquitectura RDNA de AMD en las GPU de sus móviles</a></p>
-    <p><a href="/Articles/SamsungG.html">Samsung Galaxy A12 y A02s: los primeros móviles de Samsung para 2021 son dos gama de entrada que dan un salto en batería</a></p>
-</div>
-<div id="Motorolas" style="background-color:indigo;">
-    <p><a href="/Articles/Motorola9G.html">Moto G9 Power: una gran batería de 6.000 mAh para ganar en autonomía a sus rivales y a los de casa</a></p>
-    <p><a href="/Articles/MotoG5G.html">Moto G 5G: súper batería y 5G por debajo de los 300 euros</a></p>
-</div>
+                    <figcaption>Fotografía de un Moto G 5G</figcaption>
+                </figure>
 
+                <h3 class="centro">Día de estrenos para Motorola y de que vaya completando sus familias de...<a
+                        href="Articles/MotoG5G.html">Leer más</a></h3>
+            </article>
+        </section>
+
+        <section id="Nokias" class="secciones">
+            <h2 class="centro">Noticias de Nokias</h2>
+            <article class="articulos">
+                <h2 class="centro"><u><a href="Articles/Nokia.html">Los Nokia 3.4 y Nokia 2.4 llegan a España: precio y
+                            disponibilidad oficiales de los nuevos móviles con Android One</a></u></h2>
+                <figure class="centro">
+
+                    <a href="Articles/Nokia.html">
+                        <picture>
+
+                            <source media="(max-width: 799px)" srcset="Images/1366_2000-400.jpg">
+
+                            <source media="(min-width: 800px)" srcset="Images/1366_2000-800.jpg">
+
+                            <img src="Images/1366_2000-800.jpg" alt="Nokia 3.4 y Nokia 2.4">
+
+                        </picture>
+                    </a>
+                    <figcaption>Fotografía de un Nokia 3.4 y Nokia 2.4 </figcaption>
+                </figure>
+                <h3 class="centro">Cuando un usuario busca un móvil económico, en ocasiones...<a
+                        href="Articles/Nokia.html">Leer más</a></h3>
+            </article>
+
+            <article class="articulos">
+                <h2 class="centro"><u><a href="Articles/Nokia6300.html">Nokia 6300 4G y Nokia 8000 4G: HMD Global revive
+                            otros dos clásicos de Nokia con KaiOS bajó el capó</a></u></h2>
+                <figure class="centro">
+
+                    <a href="Articles/Nokia6300.html">
+                        <picture>
+
+                            <source media="(max-width: 799px)" srcset="Images/Nokia-400.jpg">
+
+                            <source media="(min-width: 800px)" srcset="Images/Nokia-800.jpg">
+
+                            <img src="Images/Nokia-800.jpg" alt="Nokia 6300 4G y Nokia 8000 4G">
+
+                        </picture>
+                    </a>
+
+                    <figcaption>Fotografía de un Nokia 6300 4G y Nokia 8000 4G</figcaption>
+
+                </figure>
+                <h3 class="centro">HMD Global, la empresa detrás de la marca Nokia, lleva tiempo...<a
+                        href="Articles/Nokia6300.html">Leer más</a></h3>
+            </article>
+        </section>
+        <aside id="temademovistar">
+            <h2 class="centro"><mark>Tema de Movistar</mark></h2>
+
+            <div>
+
+                <img src="Images/dancing_hv2i6sa2.gif" alt="gif esqueleto bailando"><audio
+                    src="Sounds/Tono-de-llamada-movistar-oficial.m4a" autoplay muted controls loop></audio>
+            </div>
+        </aside>
+
+        <div id="NoticiasSamsungs">
+            <p><a href="/Articles/Samsung.html">Samsung usará la arquitectura RDNA de AMD en las GPU de sus móviles</a>
+            </p>
+            <p><a href="/Articles/SamsungG.html">Samsung Galaxy A12 y A02s: los primeros móviles de Samsung para 2021
+                    son
+                    dos gama de entrada que dan un salto en batería</a></p>
+        </div>
+        <div id="NoticiasMotorolas">
+            <p><a href="/Articles/Motorola9G.html">Moto G9 Power: una gran batería de 6.000 mAh para ganar en autonomía
+                    a
+                    sus rivales y a los de casa</a></p>
+            <p><a href="/Articles/MotoG5G.html">Moto G 5G: súper batería y 5G por debajo de los 300 euros</a></p>
+        </div>
+        <div id="NoticiasNokias">
+            <p><a href="/Articles/Nokia.html">Los Nokia 3.4 y Nokia 2.4 llegan a España: precio y disponibilidad
+                    oficiales
+                    de los nuevos móviles con Android One</a></p>
+            <p><a href="/Articles/Nokia6300.html">Nokia 6300 4G y Nokia 8000 4G: HMD Global revive otros dos clásicos de
+                    Nokia con KaiOS bajó el capó</a></p>
+        </div>
+
+        <footer id="piedepagina">
+            <p>Alumno: Juan Luis Postigo Moreno</p>
+            <p>Asignatura: TIC II</p>
+            <p>Curso: 2020-2021</p>
+        </footer>
+    </main>
 </body>
+
 </html>
