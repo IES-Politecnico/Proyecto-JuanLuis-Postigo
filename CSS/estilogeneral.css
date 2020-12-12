@@ -78,6 +78,6 @@ table {
   padding: 20px;
 }
 body{
-background: url(/Images/Fondo.jpg);
-background-position: center;
+  background: url(/Images/Fondo.jpg);
+  background-position: center;
 }
